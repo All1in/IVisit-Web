@@ -1,0 +1,53 @@
+@import "/src/vars.scss";
+@import "/src/mixins.scss";
+
+.header {
+    max-width: 1175px;
+    margin: 0 auto;
+    
+    &-left-side {
+       margin-top: 5px;
+       display: flex;
+       align-items: flex-end; 
+       height: 70px;
+    }
+
+    &-tag {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &-input {
+        border: none;
+        border-bottom: 1px solid #8B8B8B;
+        width: 80px;
+        outline: none;
+    }
+
+    &-center-side {
+        margin-top: 0;
+    }
+
+    &-input::placeholder {
+        background: url(../../imgs/search.svg) no-repeat;
+    }
+
+    &-list {
+        list-style: none;
+        display: flex;
+    }
+
+
+    &-list-item {
+        padding: 35px 30px;
+    }
+
+    &-list-item:first-child::after {
+        content: ">";
+    }
+
+    &-list-item:last-child {
+        margin-right: 50px;
+    }
+}
+

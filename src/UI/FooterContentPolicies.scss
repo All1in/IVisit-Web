@@ -1,0 +1,13 @@
+@import "../src/mixins.scss";
+@import "../src/vars.scss";
+
+.footer-policies {
+
+    &-list {
+        list-style: none;
+    }
+
+    &-list-item {
+        @include liItem;
+    }
+}

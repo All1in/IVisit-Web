@@ -1,0 +1,30 @@
+@import "./vars.scss";   
+
+@mixin displayFlex {
+    display: flex;
+    align-items: center;
+}   
+
+@mixin underlined {
+    border: 1px solid $color; 
+    width: 43px;
+    height: 0px;  
+}
+
+@mixin liItem {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    color: $color;
+}
+
+@mixin headlineFooter {
+    font-family: 'Eurostile Extended';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: $color;
+}

@@ -1,0 +1,55 @@
+@import "/src/mixins.scss";
+@import "/src/vars.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+.main {
+    // &-part-decription {
+    //     @include displayFlex;
+    // }
+    &-part-first {
+        max-width: 820px;
+        margin: 0 auto;
+        // @include displayFlex;
+        display: flex;
+    }
+    
+    // &-part-decription {
+        
+    // }
+
+    &-part-headline {
+        font-size: 160px;
+        color: $background-color;
+        margin-bottom: 0;
+    }
+
+    &-part-par {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 28px;
+        color: $background-color;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    &-part-a {
+       background-color: $install-color;
+       border: 1px solid #6200EE;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       border-radius: 14px;  
+       padding: 17px 30px 8px 31px;  
+       color: #000000;
+       font-family: 'Canela';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 64px;
+       line-height: 64px;
+       margin-top: 50px;
+    }
+
+    &-part-link {
+        display: flex;
+        justify-content: center;
+    }
+}

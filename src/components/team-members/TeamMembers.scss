@@ -1,0 +1,27 @@
+@import "/src/mixins.scss";
+@import "/src/vars.scss";
+
+
+.team {
+
+    &-member {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    &-members-headline {
+        font-family: 'Canela';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 100px;
+        margin-left: 60px;
+    }
+
+    &-members {
+        margin-left: 130px;
+        margin-top: 80px;
+    }
+}

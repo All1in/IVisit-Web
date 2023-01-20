@@ -1,0 +1,23 @@
+@import "../mixins";
+@import "../vars";
+
+.footer {
+
+
+    &-country-container-hr {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    &-content {
+      display: flex;
+      gap: 45px
+    }
+
+     &-country-hr,
+     &-care-hr,
+     &-policies-hr,
+     &-company-hr {
+       @include underlined;
+    }    
+}

@@ -1,0 +1,61 @@
+@import "/src/mixins.scss";
+@import "/src/vars.scss";
+
+
+.part {
+
+    &-get-span {
+        display: flex;
+        justify-content: center; 
+    }
+
+    &-get-circle {
+        background: #DBBEFF;
+        border: 1px solid rgba(187, 134, 252, 0.7);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        padding: 5px 15px;
+
+        font-family: 'Canela';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 47px;
+        line-height: 47px;
+    }
+
+    &-get-headline {
+        text-align: center;
+    }
+
+    &-get-par {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 5px;
+
+        color: #000000;
+    }
+
+    &-get-a {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-get-link {
+        border: 1px solid #9E66EE;
+        border-radius: 14px;
+        padding: 14px 34px 10px 24px;
+        text-align: center;
+        
+        font-family: 'Canela';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+
+        text-align: center;
+    }
+}

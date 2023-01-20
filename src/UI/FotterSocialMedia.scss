@@ -1,0 +1,9 @@
+@import "../src/mixins.scss";
+@import "../src/vars.scss";
+
+.footer-social {
+
+    &-headline {
+        @include headlineFooter;
+    }   
+}

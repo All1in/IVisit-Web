@@ -1,0 +1,18 @@
+@import "../src/mixins.scss";
+@import "../src/vars.scss";
+
+.footer-content {
+    &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    &-ul {
+        list-style: none;
+    }
+
+    &-ul-item {
+       @include liItem;
+    }
+}

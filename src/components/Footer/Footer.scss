@@ -1,0 +1,13 @@
+@import "../src/mixins.scss";
+@import "../src/vars.scss";
+
+
+.footer {
+    max-width: 1179px;
+    margin: 0 auto;
+
+    &-container {
+        background-color: #E8A6F7;
+    }
+
+}

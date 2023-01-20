@@ -1,0 +1,40 @@
+@import "/src/mixins.scss";
+@import "/src/vars.scss";
+
+.form {
+    width: 590px;
+    height: 316px;
+    border: 1px solid $install-color;
+    border-radius: 18px;
+    padding: 20px;
+    // background: url() no-repeat;
+
+    &-tag {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-headline {
+        text-align: center;
+    }
+
+    &-input {
+        width: 550px;
+        height: 50px;
+        border: 1px solid #000000;
+        border-radius: 14px;
+        margin-bottom: 20px;
+    }
+
+    &-a {
+        background-color: $install-color;
+        border-radius: 14px;
+        padding: 12px 28px;
+        margin-top: 60px;
+    }
+
+    &-link {
+        display: flex;
+        justify-content: center;
+    }
+}

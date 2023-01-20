@@ -1,0 +1,25 @@
+@import "/src/mixins.scss";
+@import "/src/vars.scss";
+
+.part {
+
+    &-element {
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+    &-description {
+        max-width: 1033px;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    &-hr {
+        border: 2px solid #BB86FC;
+        transform: rotate(90deg);
+        width: 50%;
+        height: 0px;
+    }
+}
